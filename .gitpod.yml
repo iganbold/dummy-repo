@@ -7,7 +7,7 @@ RUN curl -H "Metadata-Flavor: Google" http:///computeMetadata/v1/instance/servic
 
 USER gitpod
 # Apply user-specific settings
-
+RUN echo "this is gitpod user"
 
 # Give back control
 USER root
